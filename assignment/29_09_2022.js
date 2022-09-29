@@ -93,13 +93,13 @@
 // console.log(equation(100, 200, 150)); //+-20000
 
 //F12
-const funcStr = (array) => {
-  let sum = "";
-  for (let i = 0; i < array.length; i++) {
-    sum = sum + array[i];
-  }
-  return sum;
-};
-console.log(funcStr(["absd", "1234"])); //"absd1234"
-console.log(funcStr(["asas", "lkjh", "1"])); //"asaslkjh1"
-console.log(funcStr(["aa", "123", ""])); //"aa123"
+// const funcStr = (array) => {
+//   let sum = "";
+//   for (let i = 0; i < array.length; i++) {
+//     sum = sum + array[i];
+//   }
+//   return sum;
+// };
+// console.log(funcStr(["absd", "1234"])); //"absd1234"
+// console.log(funcStr(["asas", "lkjh", "1"])); //"asaslkjh1"
+// console.log(funcStr(["aa", "123", ""])); //"aa123"
