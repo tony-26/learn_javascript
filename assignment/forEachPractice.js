@@ -3,16 +3,13 @@
 const evenStr = (array) => {
   const newArr = [];
   array.forEach((e) => {
-    console.log(e);
+    if (e.length % 2 === 0) {
+      newArr.push(e);
+    }
   });
 
-  //   for (let i = 0; i < array.length; i++) {
-  //     if (array[i].length % 2 === 0) {
-  //       newArr.push(array[i]);
-  //     }
-  //   }
   return newArr;
 };
 console.log(evenStr(["asc", "asdjkl", "asdf"])); //["asdjkl", "asdf"]
-// console.log(evenStr(["aa", "asdf", "asdfgh"])); //["aa", "asdf", "asdfgh"]
-// console.log(evenStr(["asd", "qwert", "1"])); //[""]
+console.log(evenStr(["aa", "asdf", "asdfgh"])); //["aa", "asdf", "asdfgh"]
+console.log(evenStr(["asd", "qwert", "1"])); //[""]
